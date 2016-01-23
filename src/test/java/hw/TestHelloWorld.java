@@ -28,14 +28,14 @@ public class TestHelloWorld {
 
 	@Test
 	public void getMessage2() {
-		assertNull(fixture);
+		assertNotNull(fixture);
 		assertEquals("hello world", fixture.getMessage());
 	}
 
 	@Test
 	public void getYear() {
 		assertNotNull(fixture);
-		assertEquals(2009, fixture.getYear());
+		assertEquals(2008, fixture.getYear());
 	}
 
 }
