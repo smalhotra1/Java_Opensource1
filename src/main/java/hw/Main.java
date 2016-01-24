@@ -7,4 +7,5 @@ public class Main {
 		System.out.println(instance.getMessage());
 		System.out.println(instance.getYear());
 	}
+
 }
